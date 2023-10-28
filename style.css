@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.anablok {
+    width: 500px;
+    height: 750px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 50px black;
+    border-radius: 12px 12px 250px 250px;
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/a7/dc/4c/a7dc4cc006c2df0a29f2bbd2f067f42c.gif);
+    background-position: center;
+    background-size: cover;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 4fr;
+    grid-template-rows: 200px 200px 400px;
+    grid-template-areas:
+        "head head head"
+        "main main main"
+        "downpage downpage downpage";
+    gap: 10px
+}
+
+.head {
+    grid-area: head;
+
+}
+
+.button {
+    width: 498px;
+    height: 25px;
+    border: 1px dotted;
+    background-color: black;
+    border-radius: 12px 12px 25px 25px;
+    box-shadow: 0px 0px 50px black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    cursor: pointer;
+    text-shadow: 0px 0px 20px white;
+}
+
+.button:hover {
+    width: 500px;
+    height: 750px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 50px #3939be;
+    border-radius: 12px 12px 250px 250px;
+    background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FYoU3pmHGc9Rde%2Fgiphy.gif&f=1&nofb=1&ipt=478f9d4e693e786254f0d7b75f1b819e98d123e80349c6a0f304d3aa69a42235&ipo=images);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 100px;
+    text-shadow: 0px 0px 20px white
+}
+
+.kaydetyazi {
+    color: #3939be;
+    font-weight: 100%;
+    font-size: 20px;
+}
+
+.ustblok {
+    display: flex;
+    grid-template-columns: repeat(3fr);
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.buttonfacebook {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.H1q-30MaHedh4BrW4b5sTwHaHa%26pid%3DApi&f=1&ipt=d8b71eb69ed8c15cb2bddd5ead80d6aa4ed35ba9b524494fef8677b2f86936d5&ipo=images);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px white;
+}
+
+.buttoninstagram {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.VDkf14-_VAgjryLveN3ImQEgDY%26pid%3DApi&f=1&ipt=17bac73be8f627bc0fae2e2fe501acb257842ed40496d3264c80cf3904c0de75&ipo=images);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px white;
+}
+
+.buttontwitter {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.rWcBNgURN4Riy9XrbheAKwHaHa%26pid%3DApi&f=1&ipt=9cf7c324064a9797c1c6353b2d19fce386369463b5126aa485c59722f138b22e&ipo=images);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px white;
+}
+
+
+.main {
+    grid-area: main;
+}
+
+.poster {
+    border-width: 300px;
+    border: 0px solid white;
+    box-shadow: 0px 0px 100px white;
+    width: 150px;
+    height: 300px;
+    margin-left: 30px;
+    border-radius: 10px 10px 75px 75px;
+}
+
+.cabal {
+    color: #3939be;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-shadow: 0px 0px 10px white;
+}
+
+.cabalparagraf {
+    color: #3939be;
+    text-align: center;
+    margin: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 0px 1px white;
+}
+
+.downpage {
+    grid-area: downpage;
+}
+
+.sembol {
+    text-align: center;
+    margin-top: 225px;
+    font-size: 80px;
+    color: #3939be;
+    text-shadow: 0px 0px 10px white;
+}
